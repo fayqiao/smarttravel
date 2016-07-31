@@ -1,0 +1,147 @@
+*, body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#logo img{
+	float: left;
+	margin-left: 20px;
+	margin-top: 21px;
+}
+
+#poweredLogo img{
+	float: right;
+	margin-right: 20px;
+	margin-top: 21px;
+}
+
+#header, #footer{
+	height: 100px;
+	width: 100%;
+}
+
+#footer p{
+	text-align: center;
+	margin-top: 35px;
+}
+
+#footer p a{
+	color: #ff6915;
+}
+
+#mainFrame{
+	position: relative;
+}
+
+#floatingCard{
+	width: 400px;
+	min-height: 350px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 20px;
+	top: 110px;
+	padding: 25px;
+	height: auto;
+}
+
+.floatRight{
+	float: right;
+}
+
+#mapArea, #resultMap{
+	overflow: hidden;
+}
+
+.hiden{
+	display: none;
+}
+
+.resultList{
+	position: relative;
+}
+
+.rate{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#tripDetail{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border-right: :1px solid #139648;
+  height: 100%;
+}
+
+#suggestions{
+	height: 100%;
+}
+
+#tips{
+	width: 100%;
+	min-height: 250px;
+	height: auto;
+	background-color: #139648;
+	padding: 1px 15px 15px 15px;
+}
+
+#tips p, #tips h3{
+	color: #ffffff;
+}
+
+#suggestions h4{
+	color: #139648;
+}
+
+.form-control {
+    height: 46px;
+    padding: 12px 24px;
+
+}
+
+#mapArea iframe, #resultMap iframe{
+	width: 100% !important;
+	margin-top: 20px;
+}
+
+#searchArea{
+	margin-bottom: 20px;
+}
+
+.bs-example {
+    background-color: #fff;
+    border-color: #ddd;
+    border-radius: 4px 4px 4px 4px;
+    border-width: 1px;
+    box-shadow: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.table-hover td, .table-hover th{
+	padding: 12px;
+}
+
+tbody img{
+	width: 20px;
+	height: 20px;
+}
+
+#resultMap{
+	margin-bottom: 20px;	
+}
+
+.pp_social{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.pp_content{
+	width: 700px !important;
+	height: 400px !important;
+}
+
